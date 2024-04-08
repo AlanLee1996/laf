@@ -74,7 +74,7 @@ export default async function (ctx: FunctionContext) {
     password:  'your-laf-run-password'
   }
 
-  const response = await fetch(url, {
+  const res = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json;charset=utf-8'
